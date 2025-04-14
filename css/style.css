@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+#grade-calculator{
+    font-size: 15px;
+}
+
+.input-container{
+    height: max-content;
+    width: max-content;
+    margin: auto;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgb(12, 9, 51);
+    color: rgb(231, 83, 25);
+}
+
+.input-container input{
+    width: 50%;
+    padding: 12px;
+    margin-left: 16px;
+}
+
+button{
+    outline: none;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: rgb(53, 43, 43);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(5, 75, 22);
+}
